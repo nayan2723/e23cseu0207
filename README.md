@@ -43,19 +43,24 @@ This repository contains the backend implementation for three distinct microserv
 
 ## API Testing & Validation
 
-Below are the successful test results for both the external Evaluation Service endpoints and the local microservice endpoints:
+Below are the successful test results for the external Evaluation Service endpoints:
 
 ### Notifications API
-![Notifications Fetch](assets/notifications.png)
+<img width="1083" height="995" alt="Screenshot 2026-05-11 134919" src="https://github.com/user-attachments/assets/93feebb1-d929-4f78-9990-7f7cb646e69c" />
+
 
 ### Local Logger Middleware Test
-![Logger Middleware Success](assets/logger.png)
+<img width="1440" height="773" alt="Screenshot 2026-05-11 131316" src="https://github.com/user-attachments/assets/39e0bed8-3f46-41fe-a037-f75b99b321dd" />
+
 
 ### Vehicles API
-![Vehicles Fetch](assets/vehicles.png)
+<img width="1085" height="989" alt="Screenshot 2026-05-11 134808" src="https://github.com/user-attachments/assets/682ea434-8413-4e1f-9d68-63359d24ad8a" />
+
 
 ### Depots API
-![Depots Fetch](assets/depots.png)
+<img width="1084" height="958" alt="Screenshot 2026-05-11 134719" src="https://github.com/user-attachments/assets/32bb56b0-e815-4ab6-af07-335f59c5c3fe" />
+
 
 ### Logs Submission API
-![Logs Submit](assets/logs.png)
+<img width="1435" height="874" alt="Screenshot 2026-05-11 134230" src="https://github.com/user-attachments/assets/5fdb3e17-1167-4eba-8d5e-d4f586c89e91" />
+
