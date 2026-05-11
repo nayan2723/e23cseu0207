@@ -16,7 +16,7 @@ This repository contains the backend implementation for three distinct microserv
      
 3. **Vehicle Maintenance Scheduler (`/vehicle_maintenance_scheduler`)**
    Scheduling engine for depot maintenance activities:
-   - Employs 0/1 Knapsack Dynamic Programming approach to maximize maintenance benefits based on total available manpower at each respective depot.
+   - Uses 0/1 Knapsack Dynamic Programming approach to maximize maintenance benefits based on total available manpower at each respective depot.
    - Connects via external API integration to acquire real-time information about the depot and associated vehicle tasks.
 
 ## Tech Stack
