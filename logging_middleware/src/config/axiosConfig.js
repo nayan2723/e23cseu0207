@@ -1,0 +1,12 @@
+const axios = require("axios");
+require("dotenv").config();
+
+const api = axios.create({
+  baseURL: "http://4.224.186.213/evaluation-service",
+  headers: {
+    Authorization: `Bearer ${process.env.ACCESS_TOKEN}`,
+    "Content-Type": "application/json"
+  }
+});
+
+module.exports = api;
