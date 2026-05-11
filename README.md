@@ -5,19 +5,19 @@ This repository contains the backend implementation for three distinct microserv
 ## Projects Overview
 
 1. **Logging Middleware (`/logging_middleware`)**
-   - A reusable Express middleware package.
-   - Captures incoming requests and safely forwards error/info logs to the centralized Evaluation Service API.
-   - Built to be lightweight and strictly handles asynchronous log dispatching without blocking the main request cycle.
+   - An easily reusable Express middleware library.
+   - Collects incoming requests and safely sends error and information logs to the Evaluation Service API.
+   - Designed for efficiency and performs all log dispatches asynchronously without hindering the primary request flow.
 
 2. **Campus Notifications Microservice (`/notification_app_be`)**
-   - Fetches campus notifications (Events, Results, Placements) from the Evaluation Service.
-   - Implements a priority-scoring algorithm to sort notifications based on their type weight and recency.
-   - See `notification_system_design.md` for the complete system architecture, database schema, and scaling strategies.
-
+- Retrieves notifications from the Evaluation Service pertaining to events, results, and placements on campus.
+   - Has an algorithm to score the notifications according to their type’s significance and timestamp.
+   - For more information regarding the architecture and schema, refer to `notification_system_design.md`.
+   - 
 3. **Vehicle Maintenance Scheduler (`/vehicle_maintenance_scheduler`)**
-   - A scheduling engine for depot maintenance tasks.
-   - Uses a 0/1 Knapsack Dynamic Programming algorithm to maximize the maintenance impact within the available mechanic hours at each depot.
-   - Integrates with external APIs to fetch depot and vehicle task data dynamically.
+Scheduling engine for depot maintenance activities:
+- Employs 0/1 Knapsack Dynamic Programming approach to maximize maintenance benefits based on total available manpower at each respective depot.
+- Connects via external API integration to acquire real-time information about the depot and associated vehicle tasks.
 
 ## Tech Stack
 - **Node.js**
