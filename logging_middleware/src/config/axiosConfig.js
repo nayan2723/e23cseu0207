@@ -2,7 +2,7 @@ const axios = require("axios");
 require("dotenv").config();
 
 const api = axios.create({
-  baseURL: "http://4.224.186.213/evaluation-service",
+  baseURL: "http://20.244.56.144/evaluation-service",
   headers: {
     Authorization: `Bearer ${process.env.ACCESS_TOKEN}`,
     "Content-Type": "application/json"
