@@ -10,10 +10,10 @@ This repository contains the backend implementation for three distinct microserv
    - Designed for efficiency and performs all log dispatches asynchronously without hindering the primary request flow.
 
 2. **Campus Notifications Microservice (`/notification_app_be`)**
-- Retrieves notifications from the Evaluation Service pertaining to events, results, and placements on campus.
+   - Retrieves notifications from the Evaluation Service pertaining to events, results, and placements on campus.
    - Has an algorithm to score the notifications according to their type’s significance and timestamp.
    - For more information regarding the architecture and schema, refer to `notification_system_design.md`.
-   - 
+     
 3. **Vehicle Maintenance Scheduler (`/vehicle_maintenance_scheduler`)**
 Scheduling engine for depot maintenance activities:
 - Employs 0/1 Knapsack Dynamic Programming approach to maximize maintenance benefits based on total available manpower at each respective depot.
